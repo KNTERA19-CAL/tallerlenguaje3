@@ -1,0 +1,181 @@
+/* Navbar personalizado */
+.navbar.custom-navbar {
+    background-color: #000000 !important; /* 70% negro */
+  }
+  
+  .navbar-brand img {
+    border-radius: 50% !important;
+  }
+  
+  .nav-link {
+    color: #FFD700 !important; /* 30% amarillo */
+  }
+  
+  .nav-link:hover {
+    color: #3C1518 !important; /* 10% rojo oscuro */
+  }
+  
+  /* Botón de búsqueda */
+  .btn-outline-success {
+    color: #FFD700 !important; /* 30% amarillo */
+    border-color: #FFD700 !important;
+    transition: all 0.3s !important;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #3C1518 !important; /* 10% rojo oscuro */
+    color: #FFD700 !important;
+  }
+  
+  /* Carrusel */
+  .carousel-item img {
+    height: 450px !important;
+    object-fit: cover !important;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 2rem !important;
+    color: #FFD700 !important; /* 30% amarillo */
+    text-shadow: 2px 2px 5px #000000 !important; /* 70% negro */
+  }
+  
+  .carousel-caption p {
+    font-size: 1.25rem !important;
+    color: #FFD700 !important; /* 30% amarillo */
+    text-shadow: 1px 1px 3px #000000 !important; /* 70% negro */
+  }
+  
+  /* Tabla personalizada */
+  .table.custom-table {
+    margin-top: 2rem !important;
+    border: 1px solid #FFD700 !important; /* 30% amarillo */
+  }
+  
+  .table.custom-table th {
+    background-color: #000000 !important; /* 70% negro */
+    color: #FFD700 !important; /* 30% amarillo */
+  }
+  
+  .table.custom-table td {
+    background-color: #3C1518 !important; /* 10% rojo oscuro */
+    color: #FFD700 !important; /* 30% amarillo */
+  }
+  
+  /* Tarjetas personalizadas */
+  .card-custom {
+    border: none !important;
+    transition: transform 0.3s ease-in-out !important;
+  }
+  
+  .card-custom:hover {
+    transform: translateY(-10px) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .card-img-top {
+    height: 200px !important;
+    object-fit: cover !important;
+    border-radius: 8px 8px 0 0 !important;
+  }
+  
+  .card-title-custom {
+    font-size: 1.25rem !important;
+    color: #FFD700 !important; /* 30% amarillo */
+    margin-bottom: 1rem !important;
+  }
+  
+  .card-body-custom {
+    background-color: #000000 !important; /* 70% negro */
+    border-radius: 0 0 8px 8px !important;
+  }
+  
+  .btn-custom {
+    background-color: #3C1518 !important; /* 10% rojo oscuro */
+    color: #FFD700 !important; /* 30% amarillo */
+  }
+  
+  .btn-custom:hover {
+    background-color: #FFD700 !important; /* 30% amarillo */
+    color: #3C1518 !important; /* 10% rojo oscuro */
+  }
+  
+  /* Sección Sobre Nosotros */
+  #about-us {
+    background-color: #000000 !important; /* 70% negro */
+    padding: 4rem 0 !important;
+  }
+  
+  #about-us .section-title {
+    font-size: 2.5rem !important;
+    color: #FFD700 !important; /* 30% amarillo */
+    margin-bottom: 1.5rem !important;
+  }
+  
+  #about-us p.lead {
+    font-size: 1.2rem !important;
+    color: #FFD700 !important; /* 30% amarillo */
+  }
+  
+  #about-us h5 {
+    color: #3C1518 !important; /* 10% rojo oscuro */
+    font-weight: bold !important;
+  }
+  
+  /* Sección Datos */
+  #farm-data {
+    background-color: #000000 !important; /* 70% negro */
+    padding: 4rem 0 !important;
+  }
+  
+  #farm-data h5 {
+    font-size: 1.5rem !important;
+    color: #FFD700 !important; /* 30% amarillo */
+    margin-bottom: 0.5rem !important;
+  }
+  
+  #farm-data p {
+    font-size: 1.1rem !important;
+    color: #FFD700 !important; /* 30% amarillo */
+  }
+  
+  /* Estilo general */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    background-color: #000000 !important; /* 70% negro */
+    color: #FFD700 !important; /* 30% amarillo */
+  }
+  
+  a {
+    text-decoration: none !important;
+    color: #FFD700 !important; /* 30% amarillo */
+  }
+  
+  a:hover {
+    text-decoration: underline !important;
+    color: #3C1518 !important; /* 10% rojo oscuro */
+  }
+  
+  /* Ajustes para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px !important;
+    }
+  
+    .carousel-caption h5 {
+        font-size: 1.5rem !important;
+    }
+  
+    .carousel-caption p {
+        font-size: 1rem !important;
+    }
+  
+    #about-us .section-title {
+        font-size: 2rem !important;
+    }
+  
+    #farm-data h5 {
+        font-size: 1.25rem !important;
+    }
+  }
+  
+  
